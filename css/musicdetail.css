@@ -1,0 +1,42 @@
+
+
+
+#detail,.detail{
+    float:left;
+    width: 760px;
+    overflow: hidden;
+    display: none;
+    /*background: red;*/
+}
+
+
+
+.image{
+    width: 400px;
+    float: right;
+    margin-bottom: 15px;
+}
+.gallery{
+    width: 360px;
+    float: left;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.gallery img{
+    margin-right: 4px;
+}
+.description{
+    width: 350px;
+    float: left;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.description p{
+    font-weight: normal;
+    font-size: 1.10em;
+    color: #333;
+    margin-bottom: 20px;
+}
+.description h3{
+    color: #333;
+}

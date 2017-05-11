@@ -1,0 +1,399 @@
+body {
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "Microsoft YaHei";
+
+}
+
+.main-wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.clearfixed {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.header-right {
+    float: right;
+    height: 100%;
+}
+
+.mycarouselone {
+    z-index: -999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+#swiper-container1 {
+    z-index: 2;
+}
+
+#swiper-container2 {
+    z-index: -999;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+#swiper-container2 .swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+
+#swiper-container2 img {
+    height: auto;
+    width: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /*Center slide text vertically */
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    /*-webkit-box-pack: center;*/
+    /*-ms-flex-pack: center;*/
+    /*-webkit-justify-content: center;*/
+    /*justify-content: center;*/
+    /*-webkit-box-align: center;*/
+    /*-ms-flex-align: center;*/
+    /*-webkit-align-items: center;*/
+    /*align-items: center;*/
+}
+
+#carousel-inner {
+    height: 170px;
+}
+
+/*a {*/
+/*color: #cccccc;*/
+/*}*/
+
+a:hover {
+    text-decoration: none;
+}
+
+#head {
+    height: 70px;
+}
+
+/*�ӵ�*/
+.lang {
+    background-image: url(../img/headnav.png);
+    height: 20px;
+    width: auto;
+}
+
+.lang a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.lang ul {
+    list-style: none;
+    font-size: 0.70em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.lang ul li {
+    float: left;
+    color: #999;
+    padding: 2px;
+    margin-right: 2px;
+}
+
+.lang ul li a {
+    color: #cccccc;
+    padding: 0 15px;
+    text-align: right;
+}
+
+.head-nav {
+    background-image: url('../img/headnav.png');
+    height: 20px;
+}
+
+/*�ӵ�*/
+.head-nav ul {
+    color: white;
+    font-size: 0.7em;
+    font-family: 'Microsoft YaHei';
+
+}
+
+.head-nav ul li {
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+
+}
+
+.head-nav ul li a {
+    color: #cccccc;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 1080px;
+}
+
+.content-one {
+    width: 40%;
+}
+
+.content-one .knowmore {
+    width: 6.25em;
+    height: 1.25em;
+    background: #990b24;
+}
+
+.content-one .knowmore a {
+    color: white;
+}
+
+.content-one .knowmore:hover {
+    color: #eee;
+}
+
+.title {
+    background-image: url('../img/headnav.png');
+    color: white;
+    font-size: 1.2em;
+    width: 120px;
+    height: 40px;
+}
+
+.title span {
+    padding-top: 5px;
+    display: block;
+}
+
+.test {
+    background: url("../img/headnav.png");
+    margin-top: 6px;
+    width: 455px;
+}
+
+.test p {
+    font-size: 14px;
+    text-align: left;
+    color: white;
+}
+
+.swiper-pagination {
+    position: absolute;
+    top: 185px;
+}
+
+.content-two {
+    width: 960px;
+    margin-top: 50px;
+}
+
+.content-two h2 {
+    font-family: 'EurostileRegular';
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #fff;
+    font-size: 1.30em;
+    background: #990b24;
+    padding: 5px 10px 3px;
+    margin-top: 0;
+}
+
+.content-two .left {
+    width: 530px;
+    float: left;
+}
+
+.listfocuson {
+    background: #fff;
+    overflow: hidden;
+}
+
+.listfocuson h2 {
+    margin-bottom: 10px;
+    font-family: 'EurostileRegular';
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #fff;
+    font-size: 1.30em;
+    background: #990b24;
+    padding: 5px 10px 3px;
+}
+
+.listfocuson .item {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 210px;
+    margin: 0 0 10px 10px;
+}
+
+.listfocuson .item .des {
+    position: absolute;
+    bottom: 0;
+    height: 25px;
+    background: url(../img/headnav.png);
+}
+
+.listfocuson .item .des h3 {
+    font-family: 'Microsoft YaHei';
+    font-weight: normal;
+    font-size: 1.40em;
+    padding: 5px
+}
+
+
+
+.listfocuson .item .des h3 a,
+.listfocuson .item .des h3 a:hover {
+    width: 240px;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    color: #fff;
+    overflow: hidden;
+
+}
+
+
+.content-two .right {
+    width: 400px;
+    float: right;
+}
+
+.right .news {
+    background: #fff;
+    overflow: hidden;
+}
+
+/*NEWS*/
+.content-two .newslist {
+    padding: 10px;
+    padding-bottom: 0
+}
+
+.content-two .newslist .item {
+    width: 400px;
+    overflow: hidden;
+    border-bottom: 1px dotted #e5e5e5;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+
+.content-two .newslist .img,
+.content-two .newslist .des {
+    float: left
+}
+
+.content-two .newslist .des {
+    width: 250px;
+    margin-left: 10px
+}
+
+.content-two .newslist a,
+.content-two .newslist a:hover {
+    color: #666;
+    text-decoration: none
+}
+
+.content-two .newslist h3 {
+    font-size: 1.20em;
+    font-weight: normal;
+    margin-bottom: 5px
+}
+
+.content-two .newslist p {
+    font-size: 1.00em
+}
+
+.content-two .newslist h3 a:hover {
+    color: #999
+}
+
+.content-two .newslist .img a:hover {
+    opacity: .80;
+    filter: alpha(opacity=80);
+    filter: "alpha(opacity=80)"
+}
+
+.content-two .titleone {
+    background: #e5571e;
+    margin-top: 33px;
+    height: 26px;
+    width: 100%;
+}
+
+.content-two .titleone h4 {
+    color: white;
+    padding-top: 3px;
+    margin-left: 5px;
+
+}
+
+/*.product {*/
+/*width: 100%;*/
+/*/!*height: 420px;*!/*/
+/*}*/
+
+/*.product .protitle {*/
+/*width: 85%;*/
+/*height: 20px;*/
+/*background: #333333;*/
+/*color: white;*/
+/*margin-left: 6px;*/
+/*letter-spacing: 2px;*/
+/*}*/
+
+/*.product .protitle2 {*/
+/*width: 85%;*/
+/*height: 20px;*/
+/*background: #333333;*/
+/*color: white;*/
+/*margin-left: 6px;*/
+/*letter-spacing: 2px;*/
+/*}*/
+
+/*.product img {*/
+/*width: 85%;*/
+/*margin-left: 6px;*/
+/*margin-top: 12px;*/
+
+/*}*/
+
+/*.product2 {*/
+/*width: 100%;*/
+/*height: 180px;*/
+/*}*/
+
+

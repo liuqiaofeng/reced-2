@@ -1,0 +1,197 @@
+body {
+    background: url("../img/pattern.gif");
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.head {
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+
+/*�ӵ�*/
+.lang {
+    background-image: url(../img/headnav.png);
+    position: absolute;
+    overflow: hidden;
+    width: auto;
+    padding: 1px 0 1px 2px;
+    top: 20px;
+    right: 42px;
+}
+
+.lang a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.lang ul {
+    list-style: none;
+    font-size: 0.70em;
+    font-weight: normal;
+    text-transform: uppercase
+}
+
+.lang ul li {
+    float: left;
+    color: #999;
+    padding: 2px;
+    margin-right: 2px
+}
+
+.lang ul li a {
+    color: #999;
+}
+
+.head-nav {
+    background-image: url('../img/headnav.png');
+    position: absolute;
+    overflow: hidden;
+    width: auto;
+    padding: 2px 0 2px 10px;
+    top: 45px;
+    right: 42px;
+
+}
+
+/*�ӵ�*/
+.head-nav ul {
+    /*position: absolute;*/
+    top: 20%;
+    left: 60%;
+    color: white;
+    font-family: ΢���ź�;
+}
+
+.head-nav ul li {
+    float: left;
+    margin-left: 10px;
+}
+
+.head-nav ul li a {
+    color: #999;
+
+}
+
+/*.head-nav ul li:hover {*/
+    /*background: orange;*/
+/*}*/
+
+.content {
+    width: 940px;
+    margin: 0 auto;
+    background: white;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.content ul {
+    width: 100px;
+    float: left;
+}
+
+.content ul li {
+    font-size: 1.2em;
+    background: #990b24;
+    margin-top: 2px;
+    text-align: left;
+}
+
+.menu li a {
+    color: white;
+}
+
+.menu li a:hover {
+    text-decoration: none;
+}
+
+.er {
+    display: none;
+}
+
+.collection {
+    float: right;
+    width: 800px;
+    /*background: red;*/
+}
+
+.collection #head {
+    overflow: hidden;
+    height: 230px;
+    background: url("../img/bathroom.jpg") no-repeat 0 -50px;
+    background-size: cover;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+#head .pre {
+    left: 10px;
+}
+
+#head .next {
+    right: 10px;
+}
+
+#head .pre, #head .next {
+    position: absolute;
+    background: url("../img/headnav.png");
+    top: 10px;
+}
+
+#head .pre a, #head .next a {
+    background: url(../img/go.png) no-repeat center right;
+    padding: 3px 20px 3px 8px;
+    display: block;
+    font-family: 'EurostileRegular';
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+    font-size: 0.90em;
+    text-decoration: none
+}
+
+#head .text {
+    width: 800px;
+    height: 90px;
+    position: absolute;
+    top: 140px;
+    font-family: 'EurostileRegular';
+    background-image: url(../img/headnav.png);
+    color: #fff;
+    text-align: left;
+}
+
+#list {
+    width: auto;
+    overflow: hidden;
+}
+
+.item {
+    float: left;
+    width: 250px;
+    height: 210px;
+    position: relative;
+    margin: 0 3px 5px 0;
+    /*overflow: hidden;*/
+}
+
+.des {
+    color: white;
+    position: absolute;
+    height:18px;
+    bottom: 0;
+    width: 250px;
+    background: url("../img/bg-black.png");
+}
+.item img:hover{
+    opacity: 0.8;
+    -webkit-opacity: 0.8;  
+    -moz-opacity: 0.8; 
+    filter:alpha(opacity=80);  
+  
+}

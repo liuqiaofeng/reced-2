@@ -1,0 +1,114 @@
+body{
+    background: url("../img/pattern.gif");
+    overflow: hidden;
+}
+/*a{*/
+    /*color:white;*/
+/*}*/
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+/*加的*/
+.lang{
+    background-image:url(../img/headnav.png);
+    position:absolute;
+    overflow:hidden;
+    width:auto;
+    padding:1px 0 1px 2px;
+    top:20px;
+    right:42px;
+}
+.lang a:hover{
+    text-decoration: none;
+    color: white;
+}
+.lang ul {
+    list-style:none;
+    font-size:0.70em;
+    font-weight:normal;
+    text-transform:uppercase;
+
+}
+.lang ul li{
+    float:left;
+    color:#999;
+    padding:2px;
+    margin-right:2px
+}
+.lang ul li a{
+    color:#999;
+
+}
+.head-nav{
+    background-image:url('../img/headnav.png') ;
+    position: absolute;
+    overflow: hidden;
+    width:auto;
+    padding:2px 0 2px 10px;
+    top:45px;
+    right: 42px;
+
+}
+
+/*加的*/
+
+.head{
+    width: 960px;
+    position: relative;
+    margin-left:10%;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
+.head-nav ul {
+    /*position: absolute;*/
+    top: 20%;
+    left:60%;
+    color: white;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.head-nav ul li{
+    float: left;
+    margin-left: 10px;
+    /*background-color: #888888;*/
+    /*padding-left:10px;*/
+}
+.head-nav ul li a{
+color:#999;
+}
+
+#main{
+    background: #f0f0f0;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.containers{
+    background: #fff;
+    width: 940px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.boxone{
+    margin-left: auto;
+    margin-right: auto;
+    /*border:5px solid #f0f0f0;*/
+    width: 920px;
+    padding: 10px;
+    background: white;
+    height: 428px;
+    overflow: hidden;
+}
+.boxtwo{
+    background: white;
+}
+.boxtwo p{
+    text-align: left;
+}

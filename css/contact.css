@@ -1,0 +1,233 @@
+body {
+    background: url("../img/pattern.gif");
+}
+.clearfixed{
+    clear: both;
+    display: block;
+    content: '';
+}
+a:hover {
+    text-decoration: none;
+}
+
+.head {
+    width: 960px;
+    position: relative;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
+
+/*加的*/
+.lang {
+    background-image: url(../img/headnav.png);
+    position: absolute;
+    overflow: hidden;
+    width: auto;
+    padding: 1px 0 1px 2px;
+    top: 20px;
+    right: 42px;
+}
+
+.lang a {
+    color: #dddee2;
+}
+
+.lang a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.lang ul {
+    list-style: none;
+    font-size: 0.70em;
+    font-weight: normal;
+    text-transform: uppercase
+}
+
+.lang ul li {
+    float: left;
+    color: #999;
+    padding: 2px;
+    margin-right: 2px
+}
+
+.head-nav {
+    background-image: url('../img/headnav.png');
+    position: absolute;
+    overflow: hidden;
+    width: auto;
+    padding: 2px 0 2px 10px;
+    top: 45px;
+    right: 42px;
+
+}
+
+.head-nav a {
+    color: #dddee2;
+}
+
+.head-nav a:hover {
+    color: white;
+}
+
+/*加的*/
+.head-nav ul {
+    /*position: absolute;*/
+    top: 20%;
+    left: 60%;
+    color: white;
+    font-size: 14px;
+    font-family: 微软雅黑;
+
+}
+
+.head-nav ul li {
+    float: left;
+    /*background-color: #888888;*/
+    padding-left: 10px;
+}
+
+/*内容区*/
+#main {
+    background: #f0f0f0;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.content {
+    width: 940px;
+    margin: 0 auto;
+    background: white;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/*内容区*/
+
+/*标题*/
+.description h3 {
+    font-family: 'EurostileRegular';
+    text-transform: uppercase;
+    color: #333;
+    font-weight: normal;
+    font-size: 2.00em;
+    margin-bottom: 5px;
+}
+
+.form p {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-size: 1.10em;
+    color: #333;
+}
+
+/*标题*/
+
+.form label {
+    width: 110px;
+    padding: 6px 5px;
+    font-weight: normal;
+    font-size: 1.10em;
+    color: #333;
+}
+.form div {
+    text-align: left;
+    width: auto;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.form input {
+    background: #fff url(../img/inbgfield.gif) repeat-x top left;
+    font-family: Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    width: 250px;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 1.10em;
+    color: #333;
+}
+
+.form label, .form input {
+    float: right;
+}
+.form select{
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+    width: 250px;
+}
+.form .button{
+    float: left;
+    display: block;
+    /* background-image: url(../img/op01.png); */
+    background: #990b24;
+    font-family: 'EurostileRegular';
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.30em;
+    text-decoration: none;
+    padding: 5px 8px 3px 8px;
+}
+
+.form .red{
+    color: red;
+}
+
+
+
+.contentdetail {
+    width: 400px;
+}
+
+.contentlist {
+    width: 400px;
+}
+
+.contentlist .item {
+    border-bottom: 1px dashed #888888;
+    overflow: hidden;
+    margin-top: 7px;
+
+}
+
+.contentlist .des {
+    text-align: left;
+    float: left;
+    width: 250px;
+    font-size: 1.00em;
+    margin-left: 10px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.contentlist .img {
+    float: left;
+}
+
+.contentlist .img:hover {
+    opacity: 0.7;
+}
+
+.contentlist .des h3 {
+    font-size: 1.20em;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.ref{
+    text-align: left;
+}

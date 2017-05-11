@@ -1,0 +1,113 @@
+body{
+    background: url("../img/pattern.gif");
+
+}
+a:hover{
+    text-decoration: none;
+}
+.head{
+    width: 960px;
+    position: relative;
+    margin-left:10%;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
+
+/*加的*/
+.lang{
+    background-image:url(../img/headnav.png);
+    position:absolute;
+    overflow:hidden;
+    width:auto;
+    padding:1px 0 1px 2px;
+    top:20px;
+    right:42px;
+}
+.lang a:hover{
+    text-decoration: none;
+    color: white;
+}
+.lang ul {
+    list-style:none;
+    font-size:0.70em;
+    font-weight:normal;
+    text-transform:uppercase
+}
+.lang ul li{
+    float:left;
+    color:#999;
+    padding:2px;
+    margin-right:2px
+}
+.lang ul li a{
+    color: #999;
+}
+.head-nav{
+    background-image:url('../img/headnav.png') ;
+    position: absolute;
+    overflow: hidden;
+    width:auto;
+    padding:2px 0 2px 10px;
+    top:45px;
+    right: 42px;
+
+}
+
+/*加的*/
+.head-nav ul {
+    top: 20%;
+    left:60%;
+    color: white;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.head-nav ul li{
+    float: left;
+    margin-left: 10px;
+}
+.head-nav ul li a {
+color: #999;
+}
+
+.content{
+    width: 960px;
+    margin: 0 auto;
+    background: white;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.contentdetail{
+    width: 510px;
+}
+.contentlist{
+    width: 400px;
+}
+.contentlist .item{
+    border-bottom: 1px dashed #888888;
+    overflow: hidden;
+    margin-top:7px;
+
+}
+.contentlist .des{
+    text-align: left;
+    float:left;
+    width: 250px;
+    font-size: 1.00em;
+    margin-left: 10px;
+    color: #666;
+    margin-bottom:5px;
+}
+.contentlist .img{
+float: left;
+}
+.contentlist .img:hover{
+    opacity: 0.7;
+}
+.contentlist .des h3{
+    font-size: 1.20em;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
